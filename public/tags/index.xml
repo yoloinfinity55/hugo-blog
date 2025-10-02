@@ -2,24 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Yolo Infinity 55</title>
-    <link>https://yoloinfinity55.github.io/hugo-blog/tags/</link>
+    <link>http://localhost:1313/hugo-blog/tags/</link>
     <description>Recent content in Tags on Yolo Infinity 55</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Feb 2023 10:00:00 -0700</lastBuildDate>
-    <atom:link href="https://yoloinfinity55.github.io/hugo-blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Oct 2025 23:46:34 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/hugo-blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ananke</title>
+      <link>http://localhost:1313/hugo-blog/tags/ananke/</link>
+      <pubDate>Wed, 01 Oct 2025 23:46:34 -0400</pubDate>
+      <guid>http://localhost:1313/hugo-blog/tags/ananke/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/hugo-blog/tags/hugo/</link>
+      <pubDate>Wed, 01 Oct 2025 23:46:34 -0400</pubDate>
+      <guid>http://localhost:1313/hugo-blog/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Optimization</title>
+      <link>http://localhost:1313/hugo-blog/tags/optimization/</link>
+      <pubDate>Wed, 01 Oct 2025 23:46:34 -0400</pubDate>
+      <guid>http://localhost:1313/hugo-blog/tags/optimization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Seo</title>
+      <link>http://localhost:1313/hugo-blog/tags/seo/</link>
+      <pubDate>Wed, 01 Oct 2025 23:46:34 -0400</pubDate>
+      <guid>http://localhost:1313/hugo-blog/tags/seo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technical Analysis</title>
+      <link>http://localhost:1313/hugo-blog/tags/technical-analysis/</link>
+      <pubDate>Wed, 01 Oct 2025 23:46:34 -0400</pubDate>
+      <guid>http://localhost:1313/hugo-blog/tags/technical-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Development</title>
+      <link>http://localhost:1313/hugo-blog/tags/web-development/</link>
+      <pubDate>Wed, 01 Oct 2025 23:46:34 -0400</pubDate>
+      <guid>http://localhost:1313/hugo-blog/tags/web-development/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Green</title>
-      <link>https://yoloinfinity55.github.io/hugo-blog/tags/green/</link>
+      <link>http://localhost:1313/hugo-blog/tags/green/</link>
       <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
-      <guid>https://yoloinfinity55.github.io/hugo-blog/tags/green/</guid>
+      <guid>http://localhost:1313/hugo-blog/tags/green/</guid>
       <description></description>
     </item>
     <item>
       <title>Red</title>
-      <link>https://yoloinfinity55.github.io/hugo-blog/tags/red/</link>
+      <link>http://localhost:1313/hugo-blog/tags/red/</link>
       <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
-      <guid>https://yoloinfinity55.github.io/hugo-blog/tags/red/</guid>
+      <guid>http://localhost:1313/hugo-blog/tags/red/</guid>
       <description></description>
     </item>
   </channel>
