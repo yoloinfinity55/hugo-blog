@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head><script src="/hugo-blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=hugo-blog/livereload" data-no-instant defer></script>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
@@ -11,12 +11,12 @@
     
     
     
-      <meta name="robots" content="noindex, nofollow">
+      <meta name="robots" content="index, follow">
     
     
 
     
-<link rel="stylesheet" href="/hugo-blog/ananke/css/main.min.css" >
+<link rel="stylesheet" href="/hugo-blog/ananke/css/main.min.2438bcafd7af9675c426d1a4afcd16cfff18e4e10f401071e45b5ccd3be40a0d.css" >
 
 
 
@@ -37,10 +37,10 @@
     
 
     
-      <link rel="canonical" href="http://localhost:1313/hugo-blog/">
+      <link rel="canonical" href="https://yoloinfinity55.github.io/hugo-blog/">
     
 
-    <meta property="og:url" content="http://localhost:1313/hugo-blog/">
+    <meta property="og:url" content="https://yoloinfinity55.github.io/hugo-blog/">
   <meta property="og:site_name" content="Yolo Infinity 55">
   <meta property="og:title" content="Yolo Infinity 55">
   <meta property="og:locale" content="en_us">
@@ -52,8 +52,10 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Yolo Infinity 55">
 
+      
+    
 	
-  </head><body class="ma0 avenir bg-near-white development">
+  </head><body class="ma0 avenir bg-near-white production">
 
     
 
@@ -138,24 +140,17 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/hugo-blog/posts/my-fourth-post/" class="color-inherit dim link">
-            My Fourth Post
+          <a href="/hugo-blog/posts/my-second-post/" class="color-inherit dim link">
+            My Second Post
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          <p>After reviewing the project again, I understand the changes you&rsquo;ve made and have a clearer picture of the setup. Here&rsquo;s a revised explanation of your project and its current state.</p>
-<h3 id="how-your-project-is-working-now">How Your Project Is Working Now</h3>
-<p>You&rsquo;ve correctly set up your Hugo project to use a pre-compiled Tailwind CSS file. Here&rsquo;s the workflow:</p>
-<ol>
-<li><strong>CSS Entry Point:</strong> The file <code>assets/css/main.css</code> is the main source for your site&rsquo;s styles. This is where you would typically use <code>@tailwind</code> directives to import Tailwind&rsquo;s base, components, and utilities.</li>
-<li><strong>Hugo&rsquo;s Asset Pipeline:</strong> The template file <code>themes/quickstart/layouts/_partials/head/css.html</code> tells Hugo how to handle your CSS. It uses <code>resources.Get &quot;css/main.css&quot;</code> to find your main CSS file.</li>
-<li><strong>Processing:</strong> Although your <code>hugo.toml</code> is configured to look for PostCSS and Tailwind configuration files, the current setup doesn&rsquo;t strictly require them to be present for the site to build. The <code>hugo</code> command itself can process the Tailwind directives in <code>assets/css/main.css</code> and generate the final CSS.</li>
-<li><strong>Output:</strong> The processed CSS is then included in your site&rsquo;s HTML. In a development environment, it&rsquo;s linked directly. In a production build, it&rsquo;s minified and fingerprinted for better performance.</li>
-</ol>
-<h3 id="the-current-situation-and-potential-issues">The Current Situation and Potential Issues</h3>
-<p>While your site is now building and the content is appearing, there are still some underlying issues that could cause problems:</p>
+          <h2 id="introduction">Introduction</h2>
+<p>I&rsquo;ve investigated your Hugo and Tailwind CSS project and have identified the source of the errors. Here&rsquo;s an explanation of the project and the issues I found.</p>
+<h3 id="understanding-your-hugo--tailwind-css-project">Understanding Your Hugo + Tailwind CSS Project</h3>
+<p>This project is a static website built with <strong>Hugo</strong>, a very fast static site generator written in Go. It uses <strong>Tailwind CSS</strong>, a utility-first CSS framework, for styling. Let&rsquo;s break down the key parts of the project:</p>
         </div>
-        <a href="/hugo-blog/posts/my-fourth-post/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        <a href="/hugo-blog/posts/my-second-post/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
       </div>
     </div>
   </div>
@@ -171,20 +166,15 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/hugo-blog/posts/my-third-post/" class="color-inherit dim link">
-            My Third Post
+          <a href="/hugo-blog/posts/post-2/" class="color-inherit dim link">
+            Post 2
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          <h1 id="introduction">Introduction</h1>
-<p>This project is a static website built using Hugo and styled with Tailwind CSS.</p>
-<p>Here&rsquo;s a breakdown for a new learner:</p>
-<p>Hugo:</p>
-<p>Hugo is a fast static site generator written in Go. It takes your content (written in Markdown, like content/posts/my-first-post.md) and templates (HTML files in layouts) and combines them to generate a complete, ready-to-deploy website (found in the public directory).</p>
-<p>Tailwind CSS:</p>
-<p>Tailwind CSS is a utility-first CSS framework. Instead of writing custom CSS for every element, you apply pre-defined utility classes directly in your HTML (e.g., class=&ldquo;text-blue-500 font-bold&rdquo;). Hugo&rsquo;s build process, specifically Hugo Pipes, is used to process your main.css file, which imports Tailwind CSS and then purges unused styles to keep the final CSS file small.</p>
+          <p>Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum. Dolore voluptate occaecat qui mollit laborum ullamco et. Ipsum laboris officia anim laboris culpa eiusmod ex magna ex cupidatat anim ipsum aute. Mollit aliquip occaecat qui sunt velit ut cupidatat reprehenderit enim sunt laborum. Velit veniam in officia nulla adipisicing ut duis officia.</p>
+<p>Exercitation voluptate irure in irure tempor mollit Lorem nostrud ad officia. Velit id fugiat occaecat do tempor. Sit officia Lorem aliquip eu deserunt consectetur. Aute proident deserunt in nulla aliquip dolore ipsum Lorem ut cupidatat consectetur sit sint laborum. Esse cupidatat sit sint sunt tempor exercitation deserunt. Labore dolor duis laborum est do nisi ut veniam dolor et nostrud nostrud.</p>
         </div>
-        <a href="/hugo-blog/posts/my-third-post/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        <a href="/hugo-blog/posts/post-2/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
       </div>
     </div>
   </div>
@@ -198,24 +188,6 @@
         <section class="w-100">
           <h1 class="f3">More</h1>
           
-          
-            <h2 class="f5 fw4 mb4 dib mr3">
-              <a href="/hugo-blog/posts/my-second-post/" class="link black dim">
-                My Second Post
-              </a>
-            </h2>
-          
-            <h2 class="f5 fw4 mb4 dib mr3">
-              <a href="/hugo-blog/posts/my-first-post-copy/" class="link black dim">
-                My First Post
-              </a>
-            </h2>
-          
-            <h2 class="f5 fw4 mb4 dib mr3">
-              <a href="/hugo-blog/posts/post-2/" class="link black dim">
-                Post 2
-              </a>
-            </h2>
           
             <h2 class="f5 fw4 mb4 dib mr3">
               <a href="/hugo-blog/posts/post-1/" class="link black dim">
@@ -232,7 +204,7 @@
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/hugo-blog/" >
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://yoloinfinity55.github.io/hugo-blog/" >
     &copy;  Yolo Infinity 55 2025 
   </a>
     <div><div class="ananke-socials"></div>
