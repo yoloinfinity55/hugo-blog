@@ -53,13 +53,19 @@
     <loc>http://localhost:1313/hugo-blog/posts/my-first-post-copy/</loc>
     <lastmod>2025-10-01T15:40:02-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-blog/tags/green/</loc>
-    <lastmod>2023-02-15T10:00:00-07:00</lastmod>
+    <loc>http://localhost:1313/hugo-blog/tags/blue/</loc>
+    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-blog/posts/post-2/</loc>
-    <lastmod>2023-02-15T10:00:00-07:00</lastmod>
+    <loc>http://localhost:1313/hugo-blog/tags/green/</loc>
+    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-blog/posts/post-3/</loc>
+    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hugo-blog/tags/red/</loc>
+    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-blog/posts/post-2/</loc>
     <lastmod>2023-02-15T10:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hugo-blog/posts/post-1/</loc>
