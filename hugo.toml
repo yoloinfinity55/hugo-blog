@@ -1,0 +1,4 @@
+baseURL = 'https://yoloinfinity55.github.io/hugo-blog'
+languageCode = 'en-us'
+title = 'Yolo Infinity 55'
+theme = 'ananke'

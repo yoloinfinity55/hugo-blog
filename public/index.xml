@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yolo Infinity 55</title>
+    <link>https://yoloinfinity55.github.io/hugo-blog/</link>
+    <description>Recent content on Yolo Infinity 55</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Oct 2025 22:14:45 -0400</lastBuildDate>
+    <atom:link href="https://yoloinfinity55.github.io/hugo-blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://yoloinfinity55.github.io/hugo-blog/posts/my-first-post/</link>
+      <pubDate>Wed, 01 Oct 2025 22:14:45 -0400</pubDate>
+      <guid>https://yoloinfinity55.github.io/hugo-blog/posts/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; and &lt;em&gt;italic&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo Site&lt;/a&gt; for more information!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
